@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    color: #fcc;
+    background-color: #900;
+    font-size: 15px;
+    border: 1px solid #660;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .players {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .player {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  #iconX {
+    color: yellow;
+    font-size: 30px;
+  }
+  
+  #iconO {
+    color: green;
+    font-size: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .cell:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button:hover {
+    background-color: orange;
+    font-size: 20px;
+  }
+  
+  button:active {
+    background-color: green;
+    font-size: 20px;
+  }
+  
+  #turn {
+    font-size: 20px;
+  }
+
+  .playerSymbol{
+    font-size: 30px;;
+  }
+  
