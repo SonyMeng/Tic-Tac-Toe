@@ -20,7 +20,3 @@ To run the game, simply open the `index.html` file in a modern web browser.
 This project is available under the MIT License. Feel free to use, modify, and distribute it.
 """
 
-with open(readme_file_path, 'w') as file:
-    file.write(readme_content)
-
-readme_file_path
